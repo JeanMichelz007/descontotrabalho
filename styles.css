@@ -1,0 +1,38 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 360px;
+}
+
+h1 { color: #1e293b; text-align: center; margin-bottom: 20px; }
+.campo { margin-bottom: 20px; }
+label { display: block; margin-bottom: 8px; font-weight: 600; color: #475569; }
+
+input {
+    width: 100%; padding: 12px; border: 2px solid #cbd5e1;
+    border-radius: 8px; font-size: 16px; box-sizing: border-box;
+}
+input:focus { border-color: #3b82f6; outline: none; }
+
+.btn-calcular {
+    width: 100%; padding: 12px; background: #2563eb; color: white;
+    border: none; border-radius: 8px; font-weight: bold; cursor: pointer; margin-bottom: 20px;
+}
+.btn-calcular:hover { background: #1d4ed8; }
+
+.resultados { background: #f8fafc; padding: 15px; border-radius: 8px; border-left: 4px solid #2563eb; }
+.linha { display: flex; justify-content: space-between; margin-bottom: 10px; color: #475569; }
+.linha.total { margin-top: 15px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-weight: bold; color: #2563eb; }
